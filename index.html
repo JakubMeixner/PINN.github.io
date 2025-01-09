@@ -1,26 +1,58 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nerfies-like Webpage</title>
+  <title>PINN - Physics-Informed Neural Networks</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Interactive 3D Webpage</h1>
-  <div id="canvas-container"></div>
-  <script src="script.js"></script>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@article{park2021nerfies,
-    author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-    title     = {Nerfies: Deformable Neural Radiance Fields},
-    journal   = {ICCV},
-    year      = {2021},
-  }</code></pre>
-    </div>
+  <!-- Main Content -->
+  <header id="home">
+    <h1>Welcome to PINN - Physics-Informed Neural Networks</h1>
+    <p>Explore the power of physics-driven AI for solving complex problems.</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About PINNs</h2>
+    <p>Physics-Informed Neural Networks (PINNs) are a class of machine learning models that incorporate physics principles into the learning process. They are designed to solve problems governed by partial differential equations, making them powerful tools for scientific computing.</p>
+    <img src="assets/pinn-example.png" alt="PINN Example" />
   </section>
+
+  <!-- Demo Section -->
+  <section id="demo">
+    <h2>Interactive Demo</h2>
+    <div id="canvas-container"></div>
+    <p>Rotate the cube above to see a live rendering powered by Three.js.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to learn more or collaborate, reach out via:</p>
+    <ul>
+      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jakub Meixner. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
