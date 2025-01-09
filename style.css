@@ -1,8 +1,9 @@
+/* Apply a white background and adjust text color */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #202020; /* Slightly lighter background */
-  color: #fff;
+  background: #ffffff; /* White background */
+  color: #000; /* Black text */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,9 +11,49 @@ body {
   height: 100vh;
 }
 
+/* Canvas container styling */
 #canvas-container {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border: 2px solid #ffffff; /* Add a border for visibility */
+}
+
+/* Header styling */
+h1, h2, p {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Navigation bar styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background: #f4f4f4; /* Light gray for contrast */
+  border-bottom: 2px solid #ddd;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007BFF; /* Blue hover effect */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  background: #f4f4f4;
+  border-top: 2px solid #ddd;
 }
