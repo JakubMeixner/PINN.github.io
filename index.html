@@ -7,41 +7,52 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <header>
+  <!-- Main Content -->
+  <header id="home">
     <h1>Welcome to PINN - Physics-Informed Neural Networks</h1>
     <p>Explore the power of physics-driven AI for solving complex problems.</p>
   </header>
 
-  <!-- Adding the Image Here -->
-  <section id="image">
-    <img src="photo.jpg" alt="Physics-Informed Neural Networks" style="max-width: 100%; height: auto;">
-  </section>
-
+  <!-- About Section -->
   <section id="about">
     <h2>About PINNs</h2>
     <p>Physics-Informed Neural Networks (PINNs) are a class of machine learning models that incorporate physics principles into the learning process. They are designed to solve problems governed by partial differential equations, making them powerful tools for scientific computing.</p>
+    <img src="assets/pinn-example.png" alt="PINN Example" />
   </section>
 
+  <!-- Demo Section -->
   <section id="demo">
-    <h2>PINN Example</h2>
-    <p>Interactive Demo</p>
+    <h2>Interactive Demo</h2>
+    <div id="canvas-container"></div>
     <p>Rotate the cube above to see a live rendering powered by Three.js.</p>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
     <p>If you'd like to learn more or collaborate, reach out via:</p>
     <ul>
-      <li>Email: youremail@example.com</li>
-      <li>GitHub: yourusername</li>
+      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
     </ul>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Jakub Meixner. All rights reserved.</p>
+    <p>© 2025 Jakub Meixner. All rights reserved.</p>
   </footer>
 
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
